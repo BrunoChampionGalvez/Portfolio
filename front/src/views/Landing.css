@@ -1,27 +1,14 @@
-.st0 {
-  stroke: #FFFFFF;
-  stroke-miterlimit: 10;
-}
-
-.st1 {
-  fill: #FFFFFF;
-}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /* Icon container styles */
-.dock-icon {
+.tech-icon {
   position: relative;
   display: inline-block;
   cursor: pointer;
-  transition: transform 250ms ease-in-out;
-}
-
-.dock-icon:hover {
-  transform: translateY(-15%);
-  transition: transform 250ms ease-in-out;
 }
 
 /* Tooltip base styling */
-.dock-icon .tooltip {
+.tech-icon .tooltip {
   visibility: hidden;
   width: auto;
   background-color: black;
@@ -31,7 +18,7 @@
   border-radius: 5px;
   position: absolute;
   z-index: 1;
-  bottom: 95%; /* Position tooltip above the icon */
+  bottom: 120%; /* Position tooltip above the icon */
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
@@ -41,7 +28,7 @@
 }
 
 /* Arrow for tooltip */
-.dock-icon .tooltip::after {
+.tech-icon .tooltip::after {
   content: '';
   position: absolute;
   top: 100%; /* At the bottom of the tooltip */
@@ -53,7 +40,11 @@
 }
 
 /* Tooltip visibility on hover */
-.dock-icon:hover .tooltip {
+.tech-icon:hover .tooltip {
   visibility: visible;
   opacity: 1;
+}
+
+.h1 {
+  font-family: 'Press Start 2P', cursive;
 }
