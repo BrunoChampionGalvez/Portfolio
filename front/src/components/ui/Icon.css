@@ -44,7 +44,7 @@
 .dock-icon .tooltip::after {
   content: '';
   position: absolute;
-  top: 100%; /* At the bottom of the tooltip */
+  top: 97%; /* At the bottom of the tooltip */
   left: 50%;
   margin-left: -5px;
   border-width: 5px;
@@ -56,4 +56,8 @@
 .dock-icon:hover .tooltip {
   visibility: visible;
   opacity: 1;
+}
+
+.macos-navbar-logo {
+  filter: grayscale(20%)
 }
