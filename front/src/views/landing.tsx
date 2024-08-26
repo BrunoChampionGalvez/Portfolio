@@ -79,18 +79,36 @@ function Landing() {
                     <div className="flex gap-12">
                         <article className="rounded-2xl flex flex-col items-center max-w-72 pt-4 pb-4 pr-8 pl-8 bg-white shadow-lg">
                             <h3 className="project-h3 text-gray-800 font-bold mt-3 mb-3">RutaViajera</h3>
-                            <p className="text-gray-700 text-justify mb-3">Pagina web capaz de gestionar la creación de nuevas reservas de cuartos de hoteles según las fechas solicitadas por los clientes y la disponibilidad de los cuartos. Maneja, además,</p>
-                            <button className="rounded-md mb-2 cursor-pointer bg-red-500 text-white pt-1 pb-1 pr-2 pl-2 w-max mt-auto">Ver Imágenes</button>
+                            <p className="text-gray-700 text-justify mb-3">Pagina web capaz de gestionar la creación de nuevas reservas de cuartos de hoteles según las fechas solicitadas por los clientes y la disponibilidad de los cuartos. Contiene, además, una integración con Google Maps y Gemini para buscar lugares turísticos.</p>
+                            <div className="mb-2 gap-4 flex mt-auto justify-center items-center">
+                                <button className="hover:bg-red-600 transition-all focus:outline-none focus:border-none rounded-full cursor-pointer bg-red-500 text-white pt-1 pb-1 pr-3 pl-3 w-max">Imágenes</button>
+                                <button className="hover:bg-red-600 transition-all focus:outline-none focus:border-none rounded-full cursor-pointer bg-red-500 text-white pt-1 pb-1 pr-3 pl-3 w-max">Visitar</button>
+                                <a className="focus:outline-none focus:border-none" href="">
+                                    <img className="w-7" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724624163/github2_l0i2f6.png" alt="GitHub logo" />
+                                </a>
+                            </div>
                         </article>
                         <article className="rounded-2xl flex flex-col items-center max-w-72 pt-4 pb-4 pr-8 pl-8 bg-white shadow-lg">
                             <h3 className="project-h3 text-gray-800 font-bold mt-3 mb-3">Ecommerce</h3>
                             <p className="text-gray-700 text-justify mb-3">página web ecommerce capaz de crear y almacenar pedidos de productoselectrónicos, manejando al mismo tiempo el stock, el precio total de los pedidos y el permiso de acciones deacuerdo a los roles del usuario.</p>
-                            <button className="rounded-md mb-2 cursor-pointer bg-red-500 text-white pt-1 pb-1 pr-2 pl-2 w-max mt-auto">Ver Imágenes</button>
+                            <div className="mb-2 gap-4 flex mt-auto justify-center items-center">
+                                <button className="hover:bg-red-600 transition-all focus:outline-none focus:border-none rounded-full cursor-pointer bg-red-500 text-white pt-1 pb-1 pr-3 pl-3 w-max">Imágenes</button>
+                                <button className="hover:bg-red-600 transition-all focus:outline-none focus:border-none rounded-full cursor-pointer bg-red-500 text-white pt-1 pb-1 pr-3 pl-3 w-max">Visitar</button>
+                                <a className="focus:outline-none focus:border-none" href="">
+                                    <img className="w-7" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724624163/github2_l0i2f6.png" alt="GitHub logo" />
+                                </a>
+                            </div>
                         </article>
                         <article className="rounded-2xl flex flex-col items-center max-w-72 pt-4 pb-4 pr-8 pl-8 bg-white shadow-lg">
                             <h3 className="project-h3 text-gray-800 font-bold mt-3 mb-3">Companion</h3>
                             <p className="text-gray-700 text-justify mb-3">Pagina web capaz de gestionar la creación de nuevas reservas de cuartos de hoteles según las fechas solicitadas por los clientes y la disponibilidad de los cuartos.</p>
-                            <button className="rounded-md mb-2 cursor-pointer bg-red-500 text-white pt-1 pb-1 pr-2 pl-2 w-max mt-auto">Ver Imágenes</button>
+                            <div className="mb-2 gap-4 flex mt-auto justify-center items-center">
+                                <button className="hover:bg-red-600 transition-all focus:outline-none focus:border-none rounded-full cursor-pointer bg-red-500 text-white pt-1 pb-1 pr-3 pl-3 w-max">Imágenes</button>
+                                <button className="hover:bg-red-600 transition-all focus:outline-none focus:border-none rounded-full cursor-pointer bg-red-500 text-white pt-1 pb-1 pr-3 pl-3 w-max">Visitar</button>
+                                <a className="focus:outline-none focus:border-none" href="">
+                                    <img className="w-7" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724624163/github2_l0i2f6.png" alt="GitHub logo" />
+                                </a>
+                            </div>
                         </article>
                     </div>
                 </section>
