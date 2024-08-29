@@ -74,7 +74,7 @@ function Landing() {
                     </div>
                 </section>
 
-                <section className="mt-16 flex items-center flex-col mb-60">
+                <section className="mt-16 flex items-center flex-col">
                     <h2 className="h2 text-2xl text-gray-800 font-bold mb-10">Projects</h2>
                     <div className="flex gap-12">
                         <article className="rounded-2xl flex flex-col items-center max-w-72 pt-4 pb-4 pr-8 pl-8 bg-white shadow-lg">
@@ -110,6 +110,20 @@ function Landing() {
                                 </a>
                             </div>
                         </article>
+                    </div>
+                    <div>
+                    </div>
+                </section>
+                <section className="mt-16 flex items-center flex-col mb-60">
+                    <h2 className="h2 text-2xl text-gray-800 font-bold mb-10">Experience</h2>
+                    <div className="flex flex-col">
+                        <div className="flex justify-between w-auto md:w-auto md:h-64 sm:w-[600px] sm:h-80 xs:w-[380px] pt-2 pb-2 pr-8 pl-8 items-center bg-white shadow-md h-64 rounded-lg">
+                            <img className="w-96 h-54 mr-10" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724706152/TA_Certificate_Imagen_ral6sm.jpg" alt="Certificado Teaching Assistant" />
+                            <div className="max-w-96">
+                                <h4>Teaching Assistant</h4>
+                                <p className="w-[100%] text-justify">En Henry tuve la oportunidad de ser mentor y acompañante de alumnos de módulos anteriores en su proceso de aprendizaje. Logré ayudarlos en muchas ocasiones con la resolución de errores en tecnologías como Express.js, NestJS, TypeORM, TypeScript, PostgreSQL y React.js, además de que promoví el trabajo en equipo y la colaboración grupal. Me permitió desarrollar mis habilidades comunicativas y desarrollar mi interés por aportar en el progreso de los demás.</p>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </main>
