@@ -10,76 +10,102 @@ function Landing() {
                 <section className="flex justify-center">
                     <div className="flex justify-between flex-col gap-5 w-72">
                         <div className="flex flex-col max-w-md">
-                            <h1 className="font-bold mb-5 text-xl text-start max-w-md text-gray-700 h1">Full Stack Web Developer 👋🏼</h1>
-                            <div className="flex flex-col gap-6">
-                                <img className="rounded-2xl shadow-xl w-full h-full" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724566162/profile_fbn4pf.png" alt="Bruno's profile picture" />
+                            <h1 className="font-bold mb-5 text-xl text-justify max-w-md text-gray-700 h1">Full Stack Web Developer 👋🏼</h1>
+                            <div className="flex flex-col items-center gap-6">
+                                <img className="rounded-2xl shadow-xl w-60 h-full" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724566162/profile_fbn4pf.png" alt="Bruno's profile picture" />
                                 <div>
-                                    <p className="text-gray-600 mb-4 max-w-md text-justify">Hi, I'm <b>Bruno Champion</b>, a passionate Full Stack Web Developer eager to collaborate with others and keep learning.</p>
-                                    <p className="text-gray-600 text-start">Based in <b>Lima, Perú</b> 📍</p>
-                                </div>
-                            </div>
-                            <div className="hidden justify-start items-center mt-5 gap-4">
-                                <div className="tech-icon">
-                                    <img className="w-12" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564924/nestjs_iuweod.png" alt="NestJS logo" />
-                                    <span className="tooltip">NestJS</span>
-                                </div>
-                                <div className="tech-icon">
-                                    <img className="w-10 h-10" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564927/expressjs_a95whi.png" alt="Express.js logo" />
-                                    <span className="tooltip">Express.js</span>
-                                </div>
-                                <div className="tech-icon">
-                                    <img className="w-26 h-12" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564922/typeorm_kltax5.png" alt="TypeORM logo" />
-                                    <span className="tooltip">TypeORM</span>
-                                </div>
-                                <div className="tech-icon">
-                                    <img className="w-12 h-12" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564922/output-onlinetools_ltd1j4.png" alt="PostgreSQL logo" />
-                                    <span className="tooltip">PostgreSQL</span>
-                                </div>
-                                <div className="tech-icon">
-                                    <img className="w-16 h-12" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564924/mongoose_quajbe.png" alt="Mongoose logo" />
-                                    <span className="tooltip">Mongoose</span>
-                                </div>
-                                <div className="tech-icon">
-                                    <img className="w-8 h-12" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564925/mongodb_y9bbqa.png" alt="MongoDB logo" />
-                                    <span className="tooltip">MongoDB</span>
-                                </div>
-                            </div>
-                            <div className="hidden mt-3 items-center gap-4">
-                                <div className="tech-icon">
-                                    <img className="w-14 h-12" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564922/react_i1qy9i.png" alt="React.js logo" />
-                                    <span className="tooltip">React.js</span>
-                                </div>
-                                <div className="tech-icon">
-                                    <img className="w-12 h-14" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564922/reduxjs_tctnrd.png" alt="Redux.js logo" />
-                                    <span className="tooltip">Redux.js</span>
-                                </div>
-                                <div className="tech-icon">
-                                    <img className="w-14 h-12" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564923/nodejs_l1qtjz.png" alt="Node.js logo" />
-                                    <span className="tooltip">Node.js</span>
-                                </div>
-                                <div className="tech-icon">
-                                    <img className="w-10 h-10" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564921/typescript_rldzvi.png" alt="TypeScript logo" />
-                                    <span className="tooltip">TypeScript</span>
-                                </div>
-                                <div className="tech-icon">
-                                    <img className="w-10 h-10" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564926/javascript_oo8t4q.png" alt="JavaScript logo" />
-                                    <span className="tooltip">JavaScript</span>
-                                </div>
-                                <div className="tech-icon">
-                                    <img className="w-9 h-10" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564928/css_ij8lw7.png" alt="CSS logo" />
-                                    <span className="tooltip">CSS</span>
-                                </div>
-                                <div className="tech-icon">
-                                    <img className="w-9 h-10" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564926/html_gm09cx.png" alt="HTML logo" />
-                                    <span className="tooltip">HTML</span>
+                                    <p className="text-gray-600 text-lg mb-4 max-w-md text-justify">Hi, I'm <b>Bruno Champion</b>, a passionate Full Stack Web Developer eager to collaborate with others and keep learning.</p>
+                                    <p className="text-gray-600 text-lg text-start">Based in <b>Lima, Perú</b> 📍</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
 
+                <section className="mt-14">
+                    <h2 className="h2 text-lg text-gray-800 font-bold">Technologies</h2>
+                    <div className="flex justify-center items-center mt-8 gap-4">
+                        <div className="tech-icon">
+                            <img className="w-12" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564924/nestjs_iuweod.png" alt="NestJS logo" />
+                            <span className="tooltip">NestJS</span>
+                        </div>
+                        <div className="tech-icon">
+                            <img className="w-10 h-10" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564927/expressjs_a95whi.png" alt="Express.js logo" />
+                            <span className="tooltip">Express.js</span>
+                        </div>
+                        <div className="tech-icon">
+                            <img className="w-26 h-12" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564922/typeorm_kltax5.png" alt="TypeORM logo" />
+                            <span className="tooltip">TypeORM</span>
+                        </div>
+                        <div className="tech-icon">
+                            <img className="w-12 h-12" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564922/output-onlinetools_ltd1j4.png" alt="PostgreSQL logo" />
+                            <span className="tooltip">PostgreSQL</span>
+                        </div>
+                        <div className="tech-icon">
+                            <img className="w-16 h-12" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564924/mongoose_quajbe.png" alt="Mongoose logo" />
+                            <span className="tooltip">Mongoose</span>
+                        </div>
+                    </div>
+                    <div className="flex justify-center mt-3 items-center gap-4">
+                        <div className="tech-icon">
+                            <img className="w-8 h-12" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564925/mongodb_y9bbqa.png" alt="MongoDB logo" />
+                            <span className="tooltip">MongoDB</span>
+                        </div>
+                        <div className="tech-icon">
+                            <img className="w-14 h-12" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564922/react_i1qy9i.png" alt="React.js logo" />
+                            <span className="tooltip">React.js</span>
+                        </div>
+                        <div className="tech-icon">
+                            <img className="w-12 h-14" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564922/reduxjs_tctnrd.png" alt="Redux.js logo" />
+                            <span className="tooltip">Redux.js</span>
+                        </div>
+                        <div className="tech-icon">
+                            <img className="w-14 h-12" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564923/nodejs_l1qtjz.png" alt="Node.js logo" />
+                            <span className="tooltip">Node.js</span>
+                        </div>
+                        <div className="tech-icon">
+                            <img className="w-10 h-10" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564921/typescript_rldzvi.png" alt="TypeScript logo" />
+                            <span className="tooltip">TypeScript</span>
+                        </div>
+                    </div>
+                    <div className="flex justify-center mt-3 items-center gap-4">
+                        <div className="tech-icon">
+                            <img className="w-10 h-10" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564926/javascript_oo8t4q.png" alt="JavaScript logo" />
+                            <span className="tooltip">JavaScript</span>
+                        </div>
+                        <div className="tech-icon">
+                            <img className="w-9 h-10" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564928/css_ij8lw7.png" alt="CSS logo" />
+                            <span className="tooltip">CSS</span>
+                        </div>
+                        <div className="tech-icon">
+                            <img className="w-9 h-10" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564926/html_gm09cx.png" alt="HTML logo" />
+                            <span className="tooltip">HTML</span>
+                        </div>
+
+                    </div>
+                    <div className="flex justify-center gap-14 mt-8">
+                        <ul className="list-disc pl-5 flex flex-col gap-1">
+                            <li className="text-lg text-gray-700">NestJS</li>
+                            <li className="text-lg text-gray-700">Express.js</li>
+                            <li className="text-lg text-gray-700">Node.js</li>
+                            <li className="text-lg text-gray-700">TypeORM</li>
+                            <li className="text-lg text-gray-700">PostgreSQL</li>
+                            <li className="text-lg text-gray-700">Mongoose</li>
+                            <li className="text-lg text-gray-700">MongoDB</li>
+                        </ul>
+                        <ul className="list-disc pl-5 flex flex-col gap-1">
+                            <li className="text-lg text-gray-700">React.js</li>
+                            <li className="text-lg text-gray-700">Redux.js</li>
+                            <li className="text-lg text-gray-700">TypeScript</li>
+                            <li className="text-lg text-gray-700">JavaScript</li>
+                            <li className="text-lg text-gray-700">CSS</li>
+                            <li className="text-lg text-gray-700">HTML</li>
+                        </ul>
+                    </div>
+                </section>
+
                 <section className="mt-16 flex items-center flex-col">
-                    <h2 className="h2 text-2xl text-gray-800 font-bold mb-10">Projects</h2>
+                    <h2 className="h2 text-lg text-gray-800 font-bold mb-8">Projects</h2>
                     <div className="flex gap-12">
                         <article className="rounded-2xl flex flex-col items-center max-w-72 pt-4 pb-4 pr-8 pl-8 bg-white shadow-lg">
                             <h3 className="project-h3 text-gray-800 font-bold mt-3 mb-3">RutaViajera</h3>
