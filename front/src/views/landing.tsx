@@ -3,17 +3,22 @@ import "./Landing.css"
 function Landing() {
 
     return (
-        <div className="mt-40">
+        <div className="mt-2 sm:mt-40">
             <header>
             </header>
             <main>
                 <section className="flex justify-center">
-                    <div className="flex justify-between gap-12 max-w-6xl">
+                    <div className="flex justify-between flex-col gap-5 w-72">
                         <div className="flex flex-col max-w-md">
-                            <h1 className="font-bold mb-5 text-3xl text-start max-w-md text-gray-700 h1">Full Stack Web Developer 👋🏼</h1>
-                            <p className="text-gray-600 mb-2 max-w-md text-start">Hi, I'm Bruno Champion, a passionate Full Stack Web Developer eager to build new projects and keep learning.</p>
-                            <p className="text-gray-600 text-start">Based in <b>Lima, Perú</b> 📍</p>
-                            <div className="flex justify-start items-center mt-auto gap-4">
+                            <h1 className="font-bold mb-5 text-xl text-start max-w-md text-gray-700 h1">Full Stack Web Developer 👋🏼</h1>
+                            <div className="flex flex-col gap-6">
+                                <img className="rounded-2xl shadow-xl w-full h-full" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724566162/profile_fbn4pf.png" alt="Bruno's profile picture" />
+                                <div>
+                                    <p className="text-gray-600 mb-4 max-w-md text-justify">Hi, I'm <b>Bruno Champion</b>, a passionate Full Stack Web Developer eager to collaborate with others and keep learning.</p>
+                                    <p className="text-gray-600 text-start">Based in <b>Lima, Perú</b> 📍</p>
+                                </div>
+                            </div>
+                            <div className="hidden justify-start items-center mt-5 gap-4">
                                 <div className="tech-icon">
                                     <img className="w-12" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564924/nestjs_iuweod.png" alt="NestJS logo" />
                                     <span className="tooltip">NestJS</span>
@@ -39,7 +44,7 @@ function Landing() {
                                     <span className="tooltip">MongoDB</span>
                                 </div>
                             </div>
-                            <div className="mt-3 flex items-center gap-4">
+                            <div className="hidden mt-3 items-center gap-4">
                                 <div className="tech-icon">
                                     <img className="w-14 h-12" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724564922/react_i1qy9i.png" alt="React.js logo" />
                                     <span className="tooltip">React.js</span>
@@ -70,7 +75,6 @@ function Landing() {
                                 </div>
                             </div>
                         </div>
-                        <img className="rounded-2xl shadow-xl w-80 h-80" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724566162/profile_fbn4pf.png" alt="Bruno's profile picture" />
                     </div>
                 </section>
 
@@ -117,11 +121,11 @@ function Landing() {
                 <section className="mt-16 flex items-center flex-col mb-60">
                     <h2 className="h2 text-2xl text-gray-800 font-bold mb-10">Experience</h2>
                     <div className="flex flex-col">
-                        <div className="flex justify-between w-auto md:w-auto md:h-64 sm:w-[600px] sm:h-80 xs:w-[380px] pt-2 pb-2 pr-8 pl-8 items-center bg-white shadow-md h-64 rounded-lg">
-                            <img className="w-96 h-54 mr-10" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724706152/TA_Certificate_Imagen_ral6sm.jpg" alt="Certificado Teaching Assistant" />
-                            <div className="max-w-96">
+                        <div className="bg-white shadow-md rounded-lg ">
+                            <img className="" src="https://res.cloudinary.com/dp6v6zvsy/image/upload/v1724706152/TA_Certificate_Imagen_ral6sm.jpg" alt="Certificado Teaching Assistant" />
+                            <div className="">
                                 <h4>Teaching Assistant</h4>
-                                <p className="w-[100%] text-justify">En Henry tuve la oportunidad de ser mentor y acompañante de alumnos de módulos anteriores en su proceso de aprendizaje. Logré ayudarlos en muchas ocasiones con la resolución de errores en tecnologías como Express.js, NestJS, TypeORM, TypeScript, PostgreSQL y React.js, además de que promoví el trabajo en equipo y la colaboración grupal. Me permitió desarrollar mis habilidades comunicativas y desarrollar mi interés por aportar en el progreso de los demás.</p>
+                                <p className="text-justify">En Henry tuve la oportunidad de ser mentor y acompañante de alumnos de módulos anteriores en su proceso de aprendizaje. Logré ayudarlos en muchas ocasiones con la resolución de errores en tecnologías como Express.js, NestJS, TypeORM, TypeScript, PostgreSQL y React.js, además de que promoví el trabajo en equipo y la colaboración grupal. Me permitió desarrollar mis habilidades comunicativas y desarrollar mi interés por aportar en el progreso de los demás.</p>
                             </div>
                         </div>
                     </div>
